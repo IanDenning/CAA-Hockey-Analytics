@@ -17,5 +17,4 @@ Rank-based means that if a player had the highest z-score for their group in "x"
 Built With
 R: dplyr, ggplot2, car (VIF), scales, ggrepel
 
-Note
-Data files and generated outputs are excluded from this repository. Only the methodology and code are public.
+Note: Data files and generated outputs are excluded from this repository. Only the methodology and code are public.
