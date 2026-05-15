@@ -9,7 +9,7 @@ A correlation matrix was created for both forwards and defencemen to determine t
 
 Forwards: TOI/GP + Total Points/60 - adj. R² = 0.6584 | Defensemen: TOI/GP + xGF/60 - adj. R² = 0.6868
 
-Layer 2 — Rank-based Z-Score Percentile Rankings
+Layer 2 - Rank-based Z-Score Percentile Rankings
 100+ metrics (team-level data, individual production, zone entries for & against, and defensive zone exits) were first calculated into per 60-minute rates (stat*60 / total 5v5 ice-time), then z-scored and converted to rank-based percentiles across all qualifying players. 
 
 Rank-based means that if a player had the highest z-score for their group in "x" metric, they were assigned the 100th percentile. The assumption of normality was not a factor here; I wanted to quantify who is the best in the NHL. This was also an attempt to capture what the market (regression model) doesn't price in i.e. zone exits, zone entries, defensive suppression, and transition quality. Thus giving agents the analytical argument for their player to be paid above the regression floor.
