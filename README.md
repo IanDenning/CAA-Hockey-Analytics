@@ -3,7 +3,7 @@ Hockey analytics project for CAA:
 Forward and Defenceman salary regression model (adj. R² ≈ 0.68) and rank-based z-score percentile rankings across 100+ metrics, to create a statistical model to support contract negotiations for CAA's NHL clients. Built in R.
 
 Layer 1 - Salary Regression Models
-Multiple Linear regression models for forwards and defenceman that predict a player's cap hit. Built on 3 seasons of 5v5 data (2023–2026). To qualify, a player must have played at least 100 NHL regular-season games within the last 3 years (40% of all possible regular-season games). 
+Multiple Linear regression models for forwards and defenceman that predict a player's cap hit. Built on 3 seasons of data(2023–2026). To qualify, a player must have played at least 100 NHL regular-season games within the last 3 years (40% of all possible regular-season games). 
 
 A correlation matrix was created for both forwards and defencemen to determine the best metrics to use for the model, while also taking into consideration multicollinearity. This is intended to reflect what the market pays players for, as opposed to what the analytics might say a player should be paid for. 
 
