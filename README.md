@@ -17,4 +17,13 @@ Rank-based means that if a player had the highest z-score for their group in "x"
 Built With
 R: dplyr, ggplot2, car (VIF), scales, ggrepel
 
-Note: Data files and generated outputs are excluded from this repository. To access the results from my analysis, please refer to my website, as there will be a front-end interactive model where you can see the regression model for each player, along with their player cards that show all their micro-analytic percentiles. 
+Note: Data files and generated outputs are excluded from this repository. To access the results from my analysis, please refer to my website, as there will be a front-end interactive model where you can see the regression model for each player, along with their player cards that show all their micro-analytic percentiles.
+
+A Note on AI-Assisted Development: 
+Claude (Anthropic) was used throughout the coding process of this project. The statistical skeleton of the project, the regression model, z-scores, the decision to use a rank-based percentile system, and the use of the Euclidean Distance formula for some players was designed and validated thoroughly beforehand. The implementation of Euclidean Distance methodology and the percentile card visualizations was self-learned using external resources (YouTube) before using Claude to assist in building the ideas out in R.
+
+Where Claude was most utilized was in the organizing and cleaning of the data. This project had 3 years of data across hundreds of NHL games, from over 600+ players, who each had 100+ metrics. Through hundreds of lines of code, I was able to complete the project much faster than I would have otherwise.
+
+The other area where I leaned heavily on Anthropic's model was in the Z-Score card visualization. My goal was to create something similar to Baseball Savant's player cards, but I had no idea how to make that possible. Again, through YouTube videos and Claude Code, I was able to learn how to utilize new libraries, syntax, and techniques that I did not know were possible in R.
+
+The goal in using Claude in this project was to make the process faster, more efficient, and more informed. My intention was never to prompt my way to a result that I do not understand. This felt important to address and to be transparent about. Not only as AI becomes a standard part of analytical work, but also as to how AI can be appropriately and ethically used for academic work.
